@@ -10,7 +10,6 @@ namespace week4
             Console.WriteLine("Enter your age");
             int age = int.Parse(Console.ReadLine());
             int current_year = DateTime.Now.Year;
-            Console.WriteLine(current_year);
             int DOB = current_year - age;
 
             Console.WriteLine("Your date of birth is {0}", DOB);
@@ -35,15 +34,17 @@ namespace week4
             //Q3Swap two variables 
             Console.WriteLine("Enter x: ");
             string x1 = Console.ReadLine();
-
+            String xbeforeSwap=x1;
             Console.WriteLine("Enter y: ");
             string y = Console.ReadLine();
+            String ybeforeSwap = y;
             string temp;
             temp = x1;
             x1 = y;
             y = temp;
-            Console.WriteLine("Before Swapping : x : {0} ; x : {1}", temp, x1);
-            Console.WriteLine("After Swapping : y : {0} ; y : {1}", x1, temp);
+            Console.WriteLine("Before Swapping : x : {0} ; x : {1}", xbeforeSwap, x1);
+            //git check
+            Console.WriteLine("After Swapping : y : {0} ; y : {1}", ybeforeSwap, y);
 
 
 
