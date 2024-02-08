@@ -43,7 +43,6 @@ namespace week4
             x1 = y;
             y = temp;
             Console.WriteLine("Before Swapping : x : {0} ; x : {1}", xbeforeSwap, x1);
-            //git check
             Console.WriteLine("After Swapping : y : {0} ; y : {1}", ybeforeSwap, y);
 
 
